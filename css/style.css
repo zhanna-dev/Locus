@@ -373,6 +373,10 @@ body {
   font-weight: 650;
   color: #1c2323;
 }
+.subtitle {
+  font-size: 40px;
+  font-weight: 600;
+}
 /****************common-styles********************************** */
 /* **************header-start*********************************** */
 .header {
@@ -508,5 +512,50 @@ h1 {
 .project {
   padding: 60px 125px;
 }
+.project-title,
+.project-text,
+.line {
+  text-align: center;
+  margin: 0 auto;
+}
+.project-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 90px;
+  gap: 120px;
+}
+.subtitle {
+  font-size: 40px;
+  font-weight: 600;
+}
+.lines-box {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+}
+.line {
+  width: 135px;
+  height: 5px;
+  background: #58a9a5;
+}
+.project-card-text{
+color: #486958;
+font-size: 20px;
+margin-top: 10px;
+}
+.project-subtitle{
+  color: #58A9A5;
+}
+.project-img {
+  width: 450px;
+  height: 450px;
+  margin-top: 35px;
+}
+/***************project-end **********************************/
+/***************feedback-start **********************************/
+.
+/***************feedback-end***********************************/
 
-/* **************project-end */
