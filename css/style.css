@@ -541,13 +541,13 @@ h1 {
   height: 5px;
   background: #58a9a5;
 }
-.project-card-text{
-color: #486958;
-font-size: 20px;
-margin-top: 10px;
+.project-card-text {
+  color: #486958;
+  font-size: 20px;
+  margin-top: 10px;
 }
-.project-subtitle{
-  color: #58A9A5;
+.project-subtitle {
+  color: #58a9a5;
 }
 .project-img {
   width: 450px;
@@ -556,6 +556,71 @@ margin-top: 10px;
 }
 /***************project-end **********************************/
 /***************feedback-start **********************************/
-
+.feedback {
+  padding: 125px 0 120px;
+}
+.feedback-brend-img {
+  width: 250px;
+  height: auto;
+  object-fit: contain;
+}
+.brands-box {
+  display: flex;
+  justify-content: space-between;
+}
+.feedback-title {
+  text-align: center;
+}
+.feedback-bg-img {
+  width: 615px;
+  height: 700px;
+  object-fit: cover;
+}
+.feedback-content {
+  background: #ccf0e6;
+}
+.feedback-content-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 115px;
+  color: #58a9a5;
+  font-size: 30px;
+}
+.feedback-elem-text span {
+  font-weight: 750;
+  font-size: 70px;
+  width: 150px;
+}
+.feedback-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 150px;
+}
+.feedback-content-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.feedback-text {
+  font-size: 25px;
+  font-weight: 500;
+  color: #486958;
+  margin-top: 160px;
+  width: 750px;
+}
+.feedback-text span {
+  color: #58a9a5;
+  font-style: italic;
+  font-weight: 500;
+}
 /***************feedback-end***********************************/
-
+/***************contacts-start*********************************/
+.contacts{
+  padding: 150px 0 120px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  border: none;
+}
+/***************contacts-end***********************************/
