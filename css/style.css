@@ -619,8 +619,8 @@ h1 {
   padding: 150px 0 120px;
 }
 .form {
-  display: flex;
-  flex-direction: column;
-  border: none;
+  width: 1110px;
+  height: 450px;
+  border: solid 10px black;
 }
 /***************contacts-end***********************************/
