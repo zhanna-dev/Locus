@@ -621,6 +621,16 @@ h1 {
 .form {
   width: 1110px;
   height: 450px;
-  border: solid 10px black;
+  border: solid 1px black;
+  display: flex;
+  flex-direction: column;
+}
+.contacts-wrap {
+  display: flex;
+  justify-content: space-between;
+  gap: 105px;
+}
+.contacts-content {
+  width: 398px;
 }
 /***************contacts-end***********************************/
